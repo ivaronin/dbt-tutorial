@@ -1,0 +1,13 @@
+jaffle_shop:
+  outputs:
+    dev:
+      dataset: ian_dbt
+      job_execution_timeout_seconds: 300
+      job_retries: 1
+      location: US
+      method: oauth
+      priority: interactive
+      project: geograph-342112
+      threads: 4
+      type: bigquery
+  target: dev
